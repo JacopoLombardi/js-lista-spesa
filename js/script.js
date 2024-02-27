@@ -16,8 +16,8 @@ const output = document.getElementById('output');
 counter = 0;
 
 
-// ciclo While che cicle finchè non raggiunge l'ultimo elemento
+// ciclo While che cicla finchè non raggiunge l'ultimo elemento
 while(counter < listaSpesa.length){
-   output.innerHTML += `<li class="fs-4">${listaSpesa[counter]}</li>`;  // stampo sull'HTML uno ad uno gli elementi dell'Array 
+   output.innerHTML += `<li class="fs-4  bg-warning  my-2  w-auto  line  rounded-5"> ${listaSpesa[counter]}</li>`;  // stampo sull'HTML uno ad uno gli elementi dell'Array 
    counter++;
 }
